@@ -1,0 +1,193 @@
+.homepage-container {
+    background-image: url(../../assets/images/hvHome.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#TrangChu {
+    padding-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    .home-imgs{
+        margin-left: 20px;
+
+        .home-img {
+            width: 500px;
+            height: 100%;
+        }
+    }
+
+    .home-content {
+        margin: 20px;
+
+        .home-title {
+            font-size: 70px;
+            color: #004B7D;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        .home-slogan {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .home-content__content {
+            background-color: #fff;
+            opacity: 0.8;
+            margin: 20px 80px;
+            border-radius: 30px;
+            padding: 20px;
+            font-size: 22px;
+            color: #004777;
+            font-weight: 700;
+            box-shadow: 0px 8px 20px  #0A66A4;
+        }
+
+        .home-content__btn-container {
+            text-align: center;
+            margin-top: 40px;
+            .home-content__btn {
+                display: inline-block;
+                margin: 20px;
+                text-decoration: none;
+                padding: 20px;
+                width: 100px;
+                box-shadow: 0px 8px 18px #A1C5DF;
+                font-size: 26px;
+                border-radius: 20px;
+                min-width: 150px;
+            }
+            .btn--disable {
+                background-color: #D0E2EF;
+                opacity: 0.5;
+                color: #004C7B;
+                font-weight: 900;
+                &:hover {
+                    cursor: default;
+                }
+            }
+            .btn--active {
+                background-color: #fff;
+                color: #5E93BB;
+                font-weight: 900;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+#GioiThieu {
+    display: flex;
+    margin-top: 50px;
+    .slider-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        .slide-img {
+            width: 600px;
+        }
+        .slide-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .slide-title {
+                color:#FF99BA;
+                font-size: 40px;
+                font-weight: bold;
+                -webkit-text-stroke: 27px #83BBE1 outside;
+                   
+            }
+            .slide-content {
+                list-style-image: url(../../assets/images/slide-list.png);
+                list-style-position: inside;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 20px;
+                .content-item {
+                    margin-bottom: 10px;
+                }
+            }
+            .slide-btn {
+                text-decoration: none;
+                color: #fff;
+                background-color: #83BBE1;
+                width: 65%;
+                padding: 6px;
+                border-radius: 30px;
+                margin: 10px;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+    }
+    .introduce-img {
+        width: 600px;
+        margin-top: 200px;
+        margin-left: 200px
+    }
+    
+}
+
+#LopHoc {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .lha-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+}
+
+#DangKyLop {
+    position: relative;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    padding-bottom: 1000px;
+    display: flex;
+    justify-content: space-between;
+    .dkl-imgs {
+        .dkl-img1 {
+            width: 650px;
+            margin-left: 20px;
+        }
+        .dkl-img2 {
+            width: 50px;
+            position: absolute;
+            top: 460px;
+            right: 100px;
+        }
+        .dkl-img3 {
+            width: 400px;
+            position: absolute;
+            top: 160px;
+            right: 350px;
+        }
+    }
+    .dkl-content-container {
+        margin-right: 100px;
+        text-align: right;
+    }
+}
